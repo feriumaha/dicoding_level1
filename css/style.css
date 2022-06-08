@@ -1,0 +1,83 @@
+body{
+    padding: 0px;
+}
+.topnav{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+}
+.navlogo{
+    float: left;
+}
+.navlogo img{
+    width: auto;
+    max-height: 80px;
+    margin-left: 20%;
+}
+.navmenu {
+    width: auto;
+    height: 80px;
+    float: right;
+    margin-right: 5%;
+}
+.navmenu ul li{
+    width: 100px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+}
+.navmenu ul li a{
+    padding: 5px 20px;
+}
+.navmenu ul li:hover{
+    background-color:#ecf0f1;
+}
+.jumbotron{
+    width: 100%;
+    height: 500px;
+}
+.jumbotron img{
+    margin-top: 80px;
+    width: 100%;
+    height: 420px;
+}
+article{
+    width: 73%;
+    padding: 5px;
+    height: 500px;
+    float: left;
+}
+aside{
+    width: 25%;
+    padding: 8px;
+    height: auto;
+    float: left;
+}
+aside .card{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.45);
+}
+.rounded-photo img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px 0px auto auto;
+    align-items: center;
+}
+.rounded-photo p{
+    text-align: center;
+
+}
